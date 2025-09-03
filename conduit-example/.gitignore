@@ -1,0 +1,35 @@
+# Stack build artifacts
+.stack-work/
+
+# Cabal build artifacts
+dist/
+dist-*/
+
+# GHC environment files
+.ghc.environment.*
+
+# Haskell object/interface files
+*.o
+*.hi
+*.dyn_o
+*.dyn_hi
+
+# Binary executables
+*.exe
+*.out
+*.app
+
+# Misc editor/IDE files
+*.swp
+*.swo
+*.bak
+*~
+.DS_Store
+
+# Local bin (if using `stack install`)
+~/.local/bin/
+
+# VSCode/JetBrains/etc.
+.vscode/
+.idea/
+
