@@ -1,7 +1,7 @@
 name := "fs2-example"
 
-scalaVersion := "3.3.7"
+scalaVersion := "3.9.0"
 
 scalafmtOnCompile := true
 
-libraryDependencies += "co.fs2" %% "fs2-core" % "3.12.0"
+libraryDependencies += "co.fs2" %% "fs2-core" % "3.14.0"
