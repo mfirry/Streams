@@ -22,10 +22,10 @@ cd conduit-example && stack build
 
 **Step 3 — Run the benchmark**
 ```bash
-hyperfine \
+hyperfine --warmup 5 --shell=none \
   'java -jar fs2/target/scala-3.3.7/fs2-example-assembly-0.1.0.jar' \
   'node effect/dist/index.js' \
-  'cd conduit-example && stack exec conduit-example && cd ..'
+  'conduit-example/.stack-work/install/*/*/*/bin/conduit-example'
 ```
 
 Gives min/max/mean with warmup runs. Good for overall throughput comparison.
