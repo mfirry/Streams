@@ -20,7 +20,7 @@
 # snapshot:
 #   url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/24/8.yaml
 
-resolver: lts-24.34
+snapshot: nightly-2026-09-16
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.
