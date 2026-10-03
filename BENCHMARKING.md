@@ -25,7 +25,7 @@ cd conduit-example && stack build
 hyperfine \
   'java -jar fs2/target/scala-3.3.7/fs2-example-assembly-0.1.0.jar' \
   'node effect/dist/index.js' \
-  'conduit-example/.stack-work/install/*/bin/conduit-example'
+  'cd conduit-example && stack exec conduit-example && cd ..'
 ```
 
 Gives min/max/mean with warmup runs. Good for overall throughput comparison.
